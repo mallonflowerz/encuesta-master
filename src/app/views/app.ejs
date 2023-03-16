@@ -7,7 +7,7 @@
   
   <body>
     <style>
-      * {
+       * {
         transition: all 0.3s;
       }
   
@@ -81,25 +81,25 @@
     </style>
     
     <div class="contenedor">
-      <div class="encabezado" id="resultado" style="display: default;">Segun el Test las siguientes correponden a las Profesiones recomendadas: Diseño gráfico, diseño y decoración de interiores, diseño de jardines, diseño de modas, diseño de joyas, artes plásticas (pintura, escultura, danza, teatro, artesanía, cerámica), dibujo publicitario, restauración y museología, modelaje, fotografía, gestión gráfica y publicitaria, locución y publicidad, actuación, camarógrafa, arte industrial, producción audiovisual y multimedia, comunicación y producción en radio y televisión, diseño del paisaje, cine y video, comunicación escénica para televisión, música.</div>
-      <div class="puntaje" id="puntaje"></div> 
-      <div class="encabezado" id="encabezado" style="display: none;">
-        <div class="categoria" id="categoria">Ciencias_ecologicas_biologicas_salud</div>
-        <div class="numero" id="numero">3</div>
-        <div class="pregunta" id="pregunta">Criar, cuidar y tratar animales domésticos y de campo.</div>
-        <img src="https://i.ibb.co/zfM2Vyd/paul-auster.jpg" class="imagen" id="imagen" style="height: 200px; width: 100%; object-fit: cover;">
+      <div class="encabezado" id="resultado" style="display: none;">Segun el Test las siguientes correponden a las Profesiones recomendadas: Ingeniería en sistemas computacionales, geología, ingeniería civil, arquitectura, electrónica, telemática, telecomunicaciones, ingeniería mecatrónica (robótica), imagen y sonido, minas, petróleo y metalurgia, ingeniería mecánica, ingeniería industrial, física, matemáticas aplicadas, ingeniería en estadística, ingeniería automotriz, biotecnología ambiental, ingeniería geográfica, carreras militares (marina, aviación, ejército), ingeniería en costas y obras portuarias, estadística informática, programación y desarrollo de sistemas, tecnología en informática,educativa, astronomía, ingeniería en ciencias geográficas y desarrollo sustentable.</div>
+      <div class="puntaje" id="puntaje">1/1</div> 
+      <div class="encabezado" id="encabezado" style="display: default;">
+        <div class="categoria" id="categoria">Ciencia_tecnologia</div>
+        <div class="numero" id="numero">8</div>
+        <div class="pregunta" id="pregunta">Concebir planos para viviendas, edificios y ciudadelas.</div>
+        <img src="https://i.ibb.co/dgfv8zK/el-ojo.gif" class="imagen" id="imagen" style="height: 0px; width: 0px; object-fit: cover;">
       </div>
       <form method="get" id="preguntas" action="/src/index.js">
       <!-- <div class="btn" id="btn1" style="background: white;">Me interesa</div>
       <div class="btn" id="btn2" style="background: white;">No me interesa</div> -->
-      <button type="submit" class="btn" id="btn1" style="display: none; background: white;">Me interesa</button>
+      <button type="submit" class="btn" id="btn1" style="display: default; background: white;">Me interesa</button>
       </form>
       <form method="post" id="preguntax" action="/">
-      <button type="submit" class="btn" id="btn3" style="background: white; display: default;">Salir</button>
+      <button type="submit" class="btn" id="btn3" style="background: white; display: none;">Salir</button>
       </form>
       
       <form method="post" action="/src/index.js/stop">
-      <button type="submit" class="btn" id="btn2" style="display: none; background: white;">No me interesa</button>
+      <button type="submit" class="btn" id="btn2" style="display: default; background: white;">No me interesa</button>
       </form>
     </div>
   </body></html>

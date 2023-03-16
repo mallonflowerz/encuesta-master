@@ -15,7 +15,8 @@ const html = fs.readFileSync(ruta, function (err, data) {
 });
 const dom = new JSDOM(html);
 let id;
-let idCategoria;
+let idCategoria = [];
+let idDefinitivo
 
 // module.exports = app;
 
@@ -217,37 +218,41 @@ function escogerPreguntaAleatoria() {
           if (perfilCompleto !== null) {
             app.post("/", (req, res) => {
               res.redirect("login");
-              const consulta = "INSERT into categorias set?";
-              const consulta2 = "INSERT into perfiles set?"
-              const consulta3 = "select * from categorias where Est_id = '"+ id + "'"
-              conection.query(consulta, {
-                Cat_nombre: categoriaCompleta,
-                Est_id: id
-              }, (err, result)=>{
-                if (err == null){
-                  console.log("Los datos han sido guardados correctamente");
-              } else{
-                  console.log("ERROR!!: "+ err);
-              }
-              })
+              const consulta2 = "INSERT into perfiles set?";
+              const consulta3 = "select Cat_nombre from categorias";
               conection.query(consulta3, (err, result)=>{
                 if (err == null){
                   console.log("Los datos han sido guardados correctamente");
-                  idCategoria = result[0].Cat_id;
+                  idCategoria = result.map(objeto => objeto.Cat_nombre);
                   console.log(idCategoria);
+                  if (categoriaCompleta == "Ciencia y Tecnologia"){
+                    idDefinitivo = 1;
+                  } else if (categoriaCompleta == "Ciencias ecolog, biolog y salud"){
+                    idDefinitivo = 2;
+                  } else if (categoriaCompleta == "Ciencias economic, administ y financieras"){
+                    idDefinitivo = 3;
+                  } else if (categoriaCompleta == "Arte y Creatividad"){
+                    idDefinitivo = 4;
+                  } else if (categoriaCompleta == "Ciencias Sociales"){
+                    idDefinitivo = 5;
+                  } else {
+                    console.log("no recibio ninguna categoria");
+                  }
+                  console.log(idDefinitivo);
                 } else{
                   console.log("ERROR!!: "+ err);
                 }
               })
               conection.query(consulta2, {
                 Per_descripcion: perfilCompleto,
-                Cat_id: idCategoria
+                Cat_id: idDefinitivo
               }, (err, result)=>{
                 if (err == null){
                   console.log("Los datos han sido guardados correctamente");
-                  console.log("Perfil: "+idCategoria);
+                  console.log("Perfil: "+idDefinitivo);
                 } else{
                   console.log("ERROR!!: "+ err);
+                  console.log("Id: "+idDefinitivo)
                 }
               })
             })
@@ -257,6 +262,7 @@ function escogerPreguntaAleatoria() {
         if (reiniciar_puntos_al_reiniciar_el_juego) {
           preguntas_correctas = 0
           preguntas_hechas = 0
+          
         }
         npreguntas = [];
       }
@@ -266,13 +272,12 @@ function escogerPreguntaAleatoria() {
     preguntas_hechas++;
     escogerPregunta(n);
     setTimeout(() => {
-      select_id("resultado").textContent = "";
       select_id("preguntas").setAttribute("action", "/src/index.js");
       select_id("btn2").style.display = "default";
       select_id("btn1").style.display = "default";
       select_id("encabezado").style.display = "default";
       select_id("resultado").style.display = "none";
-    }, 1000);
+    }, 1500);
   }
 
 function escogerPregunta(n) {
@@ -339,9 +344,9 @@ function oButton() {
     } else if (select_id("categoria").textContent == "Arte_creatividad"){
       arte_creatividad++;
       console.log("Arte_creatividad" + arte_creatividad);
-    } else if (select_id("categoria").textContent == "Economica_admin_financ"){
+    } else if (select_id("categoria").textContent == "Ciencias economic, administ y financieras"){
       ciencias_eaf++;
-      console.log("Economica_admin_financ" + ciencias_eaf);
+      console.log("Ciencias economic, administ y financieras" + ciencias_eaf);
     } else if (select_id("categoria").textContent == "Ciencias_ecologicas_biologicas_salud"){
       ciencia_ebs++;
       console.log("Ciencias_ecologicas_biologicas_salud" + ciencia_ebs);

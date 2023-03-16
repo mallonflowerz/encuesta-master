@@ -9,14 +9,24 @@ module.exports = () => {
     })
 }
 
-
+// const lista = [ "Ciencia y Tecnologia", "Ciencias ecolog, biolog y salud", 
+// "Ciencias economic, administ y financieras", "Arte y Creatividad", "Ciencias Sociales"]
 // const conection = mysql.createConnection({
 //     host:"localhost",
 //     user:"root",
 //     password:"",
 //     database:"testvocacionalbbdd"
 // })
-
+// const consulta = "INSERT into categorias set?";
+// conection.query(consulta, {
+//     Cat_nombre: lista.forEach(),
+//   }, (err, result)=>{
+//     if (err == null){
+//       console.log("Los datos han sido guardados correctamente");
+//   } else{
+//       console.log("ERROR!!: "+ err);
+//   }
+//   })
 // conection.connect((err)=>{
 //     if(err){
 //         console.log("Error: "+ err.message)
