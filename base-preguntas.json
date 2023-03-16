@@ -1,0 +1,121 @@
+[
+    {
+        "id": "1",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Diseñar programas de computación y explorar nuevas aplicaciones tecnológicas para uso del internet.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://i.ibb.co/9cjvmw1/mona-lisa.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "7",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Resolver problemas de cálculo para construir un puente.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://i.ibb.co/SDjX7PM/jardin-de-las-delicias.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "11",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Diseñar y planificar la producción masiva de artículos como muebles, autos, equipos de oficina, empaques y envases para alimentos y otros.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://i.ibb.co/SDjX7PM/jardin-de-las-delicias.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "2",
+        "categoria": "Ciencias_ecologicas_biologicas_salud",
+        "pregunta": "Criar, cuidar y tratar animales domésticos y de campo.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://i.ibb.co/zfM2Vyd/paul-auster.jpg"
+    },
+    {
+        "id": "3",
+        "categoria": "Ciencias_ecologicas_biologicas_salud",
+        "pregunta": "Investigar sobre áreas verdes, medioambiente y cambios climáticos.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://i.ibb.co/WHd1NnL/el-viejo-y-el-mar.jpg"
+    },
+    {
+        "id": "8",
+        "categoria": "Ciencias_ecologicas_biologicas_salud",
+        "pregunta": "Diseñar cursos para enseñar a la gente sobre temas de salud e higiene.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://i.ibb.co/SPqsRyx/221b.jpg"
+    },
+    {
+        "id": "6",
+        "categoria": "Ciencias_sociales",
+        "pregunta": "Realizar excavaciones para descubrir restos del pasado.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://i.ibb.co/dgfv8zK/el-ojo.gif"
+    },
+    {
+        "id": "4",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Ilustrar, dibujar y animar digitalmente.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://i.ibb.co/dLw3jng/Dada-min-e1533749290497.jpg"
+    },
+    {
+        "id": "17",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Concebir planos para viviendas, edificios y ciudadelas.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r"
+    },
+    {
+        "id": "9",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Tocar un instrumento y componer música.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r"
+    },
+    {
+        "id": "12",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Diseñar logotipos y portadas de una revista.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r"
+    },
+    {
+        "id": "20",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Pintar, hacer esculturas, ilustrar libros de arte, etcétera.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r"
+    }
+]

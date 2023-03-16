@@ -1,0 +1,803 @@
+[
+    {
+        "id": "4",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Ilustrar, dibujar y animar digitalmente.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2018/02/04/09/09/brushes-3129361_1280.jpg"
+    },
+    {
+        "id": "9",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Tocar un instrumento y componer música.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/09/08/21/09/piano-1655558_1280.jpg"
+    },
+    {
+        "id": "12",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Diseñar logotipos y portadas de una revista.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2017/08/07/16/41/reading-2605540_1280.jpg"
+    },
+    {
+        "id": "20",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Pintar, hacer esculturas, ilustrar libros de arte, etcétera.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2018/05/31/23/23/watercolor-3445376_1280.jpg"
+    },
+    {
+        "id": "28",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Prepararse para ser modelo profesional.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2018/01/13/19/39/fashion-3080644_1280.jpg"
+    },
+    {
+        "id": "31",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Diseñar juegos interactivos electrónicos para computadora.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2019/04/15/11/42/fortnite-4129124_1280.jpg"
+    },
+    {
+        "id": "35",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Redactar guiones y libretos para un programa de televisión.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/09/22/13/51/bollywood-1687410_1280.jpg"
+    },
+    {
+        "id": "39",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Crear campañas publicitarias.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2018/01/25/10/47/marketing-strategies-3105875_1280.jpg"
+    },
+    {
+        "id": "43",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Rediseñar y decorar espacios físicos en viviendas, oficinas y locales comerciales.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939_1280.jpg"
+    },
+    {
+        "id": "46",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Diseñar ropa para niños, jóvenes y adultos.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/11/11/18/42/business-1817472_1280.jpg"
+    },
+    {
+        "id": "50",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Restaurar piezas y obras de arte.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2017/07/15/15/50/fantasy-2506830_1280.jpg"
+    },
+    {
+        "id": "65",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Fotografiar hechos históricos, lugares significativos, rostros, paisajes para el área publicitaria, artística, periodística y social.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/09/08/21/09/piano-1655558_1280.jpg"
+    },
+    {
+        "id": "67",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Restaurar piezas y obras de arte.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/09/08/21/09/piano-1655558_1280.jpg"
+    },
+    {
+        "id": "68",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Ser parte de un grupo de teatro.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/09/08/21/09/piano-1655558_1280.jpg"
+    },
+    {
+        "id": "75",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Decorar jardines de casas y parques públicos.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2012/03/04/01/07/flowers-22244_1280.jpg"
+    },
+    {
+        "id": "77",
+        "categoria": "Arte_creatividad",
+        "pregunta": "Trabajar como presentador de televisión, locutor de radio y televisión, animador de programas culturales y concursos.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2019/02/03/23/52/announcer-3973746_1280.jpg"
+    },
+    {
+        "id": "6",
+        "categoria": "Ciencias_sociales",
+        "pregunta": "Realizar excavaciones para descubrir restos del pasado.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2014/01/31/16/27/fossils-255547_1280.jpg"
+    },
+    {
+        "id": "13",
+        "categoria": "Ciencias_sociales",
+        "pregunta": "Organizar eventos y atender a sus asistentes.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2015/06/24/15/45/hands-820272_1280.jpg"
+    },
+    {
+        "id": "23",
+        "categoria": "Ciencias_sociales",
+        "pregunta": "Defender a clientes individuales o empresas en juicios de diferente naturaleza.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2020/12/05/14/08/man-5806012_1280.jpg"
+    },
+    {
+        "id": "25",
+        "categoria": "Ciencias_sociales",
+        "pregunta": "Investigar las causas y efectos de los trastornos emocionales.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2017/11/26/15/16/smiley-2979107_1280.jpg"
+    },
+    {
+        "id": "34",
+        "categoria": "Ciencias_sociales",
+        "pregunta": "Escribir artículos periodísticos, cuentos, novelas y otros.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2022/05/10/20/52/calligraphy-7188024_1280.jpg"
+    },
+    {
+        "id": "37",
+        "categoria": "Ciencias_sociales",
+        "pregunta": "Estudiar la diversidad cultural en el ámbito rural y urbano.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2021/02/02/18/23/mountains-5974809_1280.jpg"
+    },
+    {
+        "id": "38",
+        "categoria": "Ciencias_sociales",
+        "pregunta": "Gestionar y evaluar convenios internacionales de cooperación para el desarrollo social.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2018/10/20/11/50/united-nations-3760656_1280.jpg"
+    },
+    {
+        "id": "42",
+        "categoria": "Ciencias_sociales",
+        "pregunta": "Gestionar y evaluar proyectos de desarrollo en una institución educativa y/o fundación.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2018/10/20/11/50/united-nations-3760656_1280.jpg"
+    },
+    {
+        "id": "49",
+        "categoria": "Ciencias_sociales",
+        "pregunta": "Estudiar idiomas extranjeros —actuales y antiguos— para hacer traducción.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2017/04/08/09/03/question-mark-2212771_1280.jpg"
+    },
+    {
+        "id": "52",
+        "categoria": "Ciencias_sociales",
+        "pregunta": "Enseñar a niños de cero a cinco años.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/10/30/05/45/learning-1782430_1280.jpg"
+    },
+    {
+        "id": "55",
+        "categoria": "Ciencias_sociales",
+        "pregunta": "Tratar a niños, jóvenes y adultos con problemas psicológicos",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2014/03/31/17/50/class-302116_1280.jpg"
+    },
+    {
+        "id": "63",
+        "categoria": "Ciencias_sociales",
+        "pregunta": "Diseñar programas educativos para niños con discapacidad.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/06/09/02/42/crayons-1445053_1280.jpg"
+    },
+    {
+        "id": "66",
+        "categoria": "Ciencias_sociales",
+        "pregunta": "Trabajar en museos y bibliotecas nacionales e internacionales.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/09/08/22/43/books-1655783_1280.jpg"
+    },
+    {
+        "id": "70",
+        "categoria": "Ciencias_sociales",
+        "pregunta": "Conocer las distintas religiones (su filosofía) y transmitirlas a la comunidad en general.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/02/01/17/14/buddha-giant-tian-tan-1173975_1280.jpg"
+    },
+    {
+        "id": "72",
+        "categoria": "Ciencias_sociales",
+        "pregunta": "Estudiar grupos étnicos, sus costumbres, tradiciones, cultura y compartir sus vivencias.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2020/12/18/04/05/tradition-5841140_1280.jpg"
+    },{
+        "id": "78",
+        "categoria": "Ciencias_sociales",
+        "pregunta": "Diseñar y ejecutar programas de turismo.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2014/08/12/00/01/santorini-416136_1280.jpg"
+    },
+    {
+        "id": "5",
+        "categoria": "Ciencias economic, administ y financieras",
+        "pregunta": "Seleccionar, capacitar y motivar al personal de una organización o empresa.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2014/07/08/10/47/team-386673_1280.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "10",
+        "categoria": "Ciencias economic, administ y financieras",
+        "pregunta": "Planificar cuáles son las metas de una organización pública o privada a mediano y largo plazo",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2017/06/04/20/48/vision-2372177_1280.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "15",
+        "categoria": "Ciencias economic, administ y financieras",
+        "pregunta": "Controlar ingresos y egresos de fondos y presentar el balance final de una institución.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/10/09/19/19/coins-1726618_1280.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "19",
+        "categoria": "Ciencias economic, administ y financieras.",
+        "pregunta": "Hacer propuestas y formular estrategias para aprovechar las relaciones económicas entre dos países.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2018/06/18/23/03/europe-3483539_1280.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "21",
+        "categoria": "Ciencias economic, administ y financieras",
+        "pregunta": "Elaborar campañas para introducir un nuevo producto al mercado.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/10/22/20/55/makeup-brushes-1761648_1280.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "26",
+        "categoria": "Ciencias economic, administ y financieras.",
+        "pregunta": "Supervisar las ventas de un centro comercial.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2019/01/15/15/43/writing-3934298_1280.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "29",
+        "categoria": "Ciencias economic, administ y financieras",
+        "pregunta": "Aconsejar a las personas sobre planes de ahorro e inversiones.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506_1280.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "33",
+        "categoria": "Ciencias economic, administ y financieras",
+        "pregunta": "Tener un negocio propio de tipo comercial.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/04/08/18/46/shopping-mall-1316787_1280.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "36",
+        "categoria": "Ciencias economic, administ y financieras",
+        "pregunta": "Organizar un plan de distribución y venta de un gran almacén.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2018/03/01/05/49/profit-3189803_1280.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "44",
+        "categoria": "Ciencias economic, administ y financieras",
+        "pregunta": "Administrar una empresa de turismo o agencias de viaje.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2018/05/02/14/31/company-3368699_1280.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "53",
+        "categoria": "Ciencias economic, administ y financieras",
+        "pregunta": "Investigar o sondear nuevos mercados.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/11/27/21/42/stock-1863880_1280.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "56",
+        "categoria": "Ciencias economic, administ y financieras",
+        "pregunta": "Crear estrategias de promoción y venta de nuevos productos nacionales en el mercado internacional.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2018/12/10/21/09/store-3867742_1280.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "59",
+        "categoria": "Ciencias economic, administ y financieras",
+        "pregunta": "Administrar una empresa (familiar, privada o pública).",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2015/10/31/21/31/bookkeeper-1016299_1280.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "62",
+        "categoria": "Ciencias economic, administ y financieras",
+        "pregunta": "Asistir a directivos de multinacionales con manejo de varios idiomas.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2015/02/16/12/06/international-638245_1280.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "71",
+        "categoria": "Ciencias economic, administ y financieras",
+        "pregunta": "Asesorar a inversionistas en la compra de bienes y acciones en mercados nacionales e internacionales.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/04/20/08/21/entrepreneur-1340649_1280.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "80",
+        "categoria": "Ciencias economic, administ y financieras",
+        "pregunta": "Organizar, planificar y administrar centros educativos.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2018/03/07/08/12/books-3205452_1280.jpg",
+        "objectFit": "cover"
+    },
+
+    {
+        "id": "1",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Diseñar programas de computación y explorar nuevas aplicaciones tecnológicas para uso del internet.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2014/03/22/22/17/phone-292994_1280.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "7",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Resolver problemas de cálculo para construir un puente.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/08/06/17/34/office-1574717_1280.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "11",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Diseñar y planificar la producción masiva de artículos como muebles, autos, equipos de oficina, empaques y envases para alimentos y otros.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2017/09/15/12/10/mockup-2752023_1280.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "id": "17",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Concebir planos para viviendas, edificios y ciudadelas.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/11/24/20/30/architecture-1857175_1280.jpg"
+    },
+    {
+        "id": "18",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Investigar y probar nuevos productos farmacéuticos.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/07/24/21/01/thermometer-1539191_1280.jpg"
+    },
+    {
+        "id": "24",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Diseñar máquinas que puedan simular actividades humanas.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2017/08/29/09/46/industry-2692640_1280.jpg"
+    },
+    {
+        "id": "30",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Elaborar mapas, planos e imágenes para el estudio y análisis de datos geográficos.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2017/04/14/16/29/workplace-2230698_1280.jpg"
+    },
+    {
+        "id": "41",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Dedicarse a fabricar productos alimenticios de consumo masivo.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2018/06/05/12/25/milk-3455395_1280.jpg"
+    },
+    {
+        "id": "48",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Manejar o hacerle mantenimiento a dispositivos tecnológicos en aviones, barcos, radares, etc.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2015/07/11/14/53/plumbing-840835_1280.jpg"
+    },
+    {
+        "id": "51",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Revisar y dar mantenimiento a artefactos eléctricos, electrónicos y computadoras.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2014/10/23/14/35/electrician-499799_1280.jpg"
+    },
+    {
+        "id": "58",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Trabajar en una empresa petrolera en un cargo técnico como control de la producción.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2018/08/24/23/33/oil-rig-3629119_1280.jpg"
+    },
+    {
+        "id": "60",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Tener un taller de reparación y mantenimiento de carros, tractores, etcétera.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2020/02/19/21/49/workshop-4863393_1280.jpg"
+    },
+    {
+        "id": "61",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Ejecutar proyectos de extracción minera y metalúrgica.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2020/05/18/20/53/worker-5188410_1280.jpg"
+    },
+    {
+        "id": "64",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Aplicar conocimientos de estadística en investigaciones en diversas áreas (social, administrativa, salud, etcétera.)",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/06/03/13/57/digital-marketing-1433427_1280.jpg"
+    },
+    {
+        "id": "73",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Explorar el espacio sideral, los planetas, características y componentes",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2018/08/15/13/10/galaxy-3608029_1280.jpg"
+    },
+    {
+        "id": "79",
+        "categoria": "Ciencia_tecnologia",
+        "pregunta": "Administrar y ordenar (planificar) adecuadamente la ocupación del espacio físico de ciudades, países etc., utilizando imágenes de satélite, mapas.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2018/06/18/23/03/europe-3483539_1280.jpg"
+    },
+
+    {
+        "id": "2",
+        "categoria": "Ciencias_ecologicas_biologicas_salud",
+        "pregunta": "Criar, cuidar y tratar animales domésticos y de campo.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2018/05/28/23/05/sheeps-3437467_1280.jpg"
+    },
+    {
+        "id": "3",
+        "categoria": "Ciencias_ecologicas_biologicas_salud",
+        "pregunta": "Investigar sobre áreas verdes, medioambiente y cambios climáticos.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_1280.jpg"
+    },
+    {
+        "id": "8",
+        "categoria": "Ciencias_ecologicas_biologicas_salud",
+        "pregunta": "Diseñar cursos para enseñar a la gente sobre temas de salud e higiene.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2015/07/30/14/36/hypertension-867855_1280.jpg"
+    },
+    {
+        "id": "14",
+        "categoria": "Ciencias_ecologicas_biologicas_salud",
+        "pregunta": "Atender la salud de pesonas enfermas.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2017/07/23/10/44/dentist-2530990_1280.jpg"
+    },
+    {
+        "id": "16",
+        "categoria": "Ciencias_ecologicas_biologicas_salud",
+        "pregunta": "Hacer experimentos con plantas (frutas, árboles, flores).",
+        "respuesta": "Me interesa", 
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2023/02/24/10/14/flowers-7810659_1280.jpg"
+    },
+    {
+        "id": "22",
+        "categoria": "Ciencias_ecologicas_biologicas_salud",
+        "pregunta": "Examinar y tratar los problemas visuales.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2020/04/10/23/09/visual-5028074_1280.jpg"
+    },
+    {
+        "id": "40",
+        "categoria": "Ciencias_ecologicas_biologicas_salud",
+        "pregunta": "Trabajar investigando la reproducción de peces, camarones y otros animales marinos.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2012/03/03/23/54/animal-21668_1280.jpg"
+    },
+    {
+        "id": "45",
+        "categoria": "Ciencias_ecologicas_biologicas_salud",
+        "pregunta": "Aplicar métodos alternativos a la medicina tradicional, para atender personas con dolencias de diversa índole.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2015/08/25/03/51/lemon-906141_1280.jpg"
+    },
+    {
+        "id": "47",
+        "categoria": "Ciencias_ecologicas_biologicas_salud",
+        "pregunta": "Investigar organismos vivos para elaborar vacunas.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2020/11/07/20/29/laboratory-5722327_1280.jpg"
+    },
+    {
+        "id": "54",
+        "categoria": "Ciencias_ecologicas_biologicas_salud",
+        "pregunta": "Atender la salud dental de las personas.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2017/06/18/19/35/x-ray-of-the-jaw-2416944_1280.jpg"
+    },
+    {
+        "id": "57",
+        "categoria": "Ciencias_ecologicas_biologicas_salud",
+        "pregunta": "Planificar y recomendar dietas para personas diabéticas o con sobrepeso.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2017/07/16/20/45/sugar-2510533_1280.jpg"
+    },
+    {
+        "id": "69",
+        "categoria": "Ciencias_ecologicas_biologicas_salud",
+        "pregunta": "Estudiar la influencia entre las corrientes marinas y el clima y sus consecuencias ecológicas.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2012/10/26/01/38/cold-front-63037_1280.jpg"
+    },
+    {
+        "id": "74",
+        "categoria": "Ciencias_ecologicas_biologicas_salud",
+        "pregunta": "Mejorar la imagen facial y corporal de las personas, aplicando diferentes técnicas.",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2016/11/14/03/05/surgery-1822458_1280.jpg"
+    },
+    {
+        "id": "76",
+        "categoria": "Ciencias_ecologicas_biologicas_salud",
+        "pregunta": "Administrar y renovar menús de comidas en un hotel o restaurante..",
+        "respuesta": "Me interesa",
+        "incorrecta1": "No me interesa",
+        "incorrecta2": "",
+        "incorrecta3": "\r",
+        "imagen": "https://cdn.pixabay.com/photo/2017/08/05/21/34/chef-2585791_1280.jpg"
+    }
+    
+]
