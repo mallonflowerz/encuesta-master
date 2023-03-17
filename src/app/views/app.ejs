@@ -7,7 +7,7 @@
   
   <body>
     <style>
-       * {
+        * {
         transition: all 0.3s;
       }
   
@@ -31,13 +31,21 @@
   
       .encabezado {
         position: relative;
-        background: white;
+        background: #f3eeee;
         min-width: 300px;
         width: 70%;
         max-width: 600px;
-        padding: 10px;
+        padding: 50px;
       }
-  
+
+      .encabezado h2{
+        color: rgb(183, 101, 206);
+      }
+      
+      .encabezado p{
+        color: #6b6a6a;
+      }
+
       .categoria {
         opacity: 0.0;
         text-align: left;
@@ -55,15 +63,24 @@
   
       .btn {
         background: white;
-        width: 60%;
+        width: 100%;
         max-width: 550px;
         padding: 10px;
         margin: 5px;
         cursor: pointer;
       }
+
+      .btn3{
+        width: 100%;
+      }
+      .btn3{
+        background-color: rgb(145, 108, 179);
+        border: none;
+      }
   
       .btn:hover {
         transform: scale(1.05);
+        background-color: cornflowerblue;
       }
       
       .numero{
@@ -81,13 +98,13 @@
     </style>
     
     <div class="contenedor">
-      <div class="encabezado" id="resultado" style="display: none;">Segun el Test las siguientes correponden a las Profesiones recomendadas: Ingeniería en sistemas computacionales, geología, ingeniería civil, arquitectura, electrónica, telemática, telecomunicaciones, ingeniería mecatrónica (robótica), imagen y sonido, minas, petróleo y metalurgia, ingeniería mecánica, ingeniería industrial, física, matemáticas aplicadas, ingeniería en estadística, ingeniería automotriz, biotecnología ambiental, ingeniería geográfica, carreras militares (marina, aviación, ejército), ingeniería en costas y obras portuarias, estadística informática, programación y desarrollo de sistemas, tecnología en informática,educativa, astronomía, ingeniería en ciencias geográficas y desarrollo sustentable.</div>
+      <div class="encabezado" id="resultado" style="display: none;">Segun el Test las siguientes correponden a las Profesiones recomendadas: Diseño gráfico, diseño y decoración de interiores, diseño de jardines, diseño de modas, diseño de joyas, artes plásticas (pintura, escultura, danza, teatro, artesanía, cerámica), dibujo publicitario, restauración y museología, modelaje, fotografía, gestión gráfica y publicitaria, locución y publicidad, actuación, camarógrafa, arte industrial, producción audiovisual y multimedia, comunicación y producción en radio y televisión, diseño del paisaje, cine y video, comunicación escénica para televisión, música.</div>
       <div class="puntaje" id="puntaje">1/1</div> 
       <div class="encabezado" id="encabezado" style="display: default;">
-        <div class="categoria" id="categoria">Ciencia_tecnologia</div>
-        <div class="numero" id="numero">8</div>
-        <div class="pregunta" id="pregunta">Concebir planos para viviendas, edificios y ciudadelas.</div>
-        <img src="https://i.ibb.co/dgfv8zK/el-ojo.gif" class="imagen" id="imagen" style="height: 0px; width: 0px; object-fit: cover;">
+        <div class="categoria" id="categoria">Ciencias_ecologicas_biologicas_salud</div>
+        <div class="numero" id="numero">5</div>
+        <div class="pregunta" id="pregunta">Diseñar cursos para enseñar a la gente sobre temas de salud e higiene.</div>
+        <img src="https://i.ibb.co/SPqsRyx/221b.jpg" class="imagen" id="imagen" style="height: 200px; width: 100%; object-fit: cover;">
       </div>
       <form method="get" id="preguntas" action="/src/index.js">
       <!-- <div class="btn" id="btn1" style="background: white;">Me interesa</div>
@@ -95,7 +112,7 @@
       <button type="submit" class="btn" id="btn1" style="display: default; background: white;">Me interesa</button>
       </form>
       <form method="post" id="preguntax" action="/">
-      <button type="submit" class="btn" id="btn3" style="background: white; display: none;">Salir</button>
+      <button type="submit" class="btn btn3" id="btn3" style="background: white; display: none;"><b>Salir</b></button>
       </form>
       
       <form method="post" action="/src/index.js/stop">
