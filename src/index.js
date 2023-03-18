@@ -1,9 +1,10 @@
 // este archivo ejecuta el archivo "app.ejs"
 const app = require("../src/config/server");
 // '' C:/Users/ADSI/Documents/siuwi/encuesta-master/src/app/views/app.ejs
-const ruta = 'C:/Users/marlo/Desktop/a/Nueva_carpeta/encuesta-master/src/app/views/app.ejs'
-const ruta2 = 'C:/Users/ADSI/Documents/siuwi/encuesta-master/src/app/views/alert.ejs'
+const ruta = 'C:/Users/marlo/Desktop/a/Nueva_carpeta/encuesta-master/src/app/views/app.ejs' // ponga la ruta COMPLETA de su carpeta en donde se encuentre el archivo "app.ejs"
+// const ruta2 = 'C:/Users/ADSI/Documents/siuwi/encuesta-master/src/app/views/alert.ejs'
 
+// no cambiar nada de estas definiciones
 const mysql = require("../src/config/mysql");
 const conection = mysql();
 const base_preguntas = require("../base-preguntas.json");
