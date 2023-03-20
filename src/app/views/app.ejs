@@ -98,25 +98,25 @@
     </style>
     
     <div class="contenedor">
-      <div class="encabezado" id="resultado" style="display: none;">Segun el Test las siguientes correponden a las Profesiones recomendadas: Diseño gráfico, diseño y decoración de interiores, diseño de jardines, diseño de modas, diseño de joyas, artes plásticas (pintura, escultura, danza, teatro, artesanía, cerámica), dibujo publicitario, restauración y museología, modelaje, fotografía, gestión gráfica y publicitaria, locución y publicidad, actuación, camarógrafa, arte industrial, producción audiovisual y multimedia, comunicación y producción en radio y televisión, diseño del paisaje, cine y video, comunicación escénica para televisión, música.</div>
-      <div class="puntaje" id="puntaje">1/1</div> 
-      <div class="encabezado" id="encabezado" style="display: default;">
+      <div class="encabezado" id="resultado" style="display: default;">Segun el Test las siguientes correponden a las Profesiones recomendadas: Diseño gráfico, diseño y decoración de interiores, diseño de jardines, diseño de modas, diseño de joyas, artes plásticas (pintura, escultura, danza, teatro, artesanía, cerámica), dibujo publicitario, restauración y museología, modelaje, fotografía, gestión gráfica y publicitaria, locución y publicidad, actuación, camarógrafa, arte industrial, producción audiovisual y multimedia, comunicación y producción en radio y televisión, diseño del paisaje, cine y video, comunicación escénica para televisión, música.</div>
+      <div class="puntaje" id="puntaje"></div> 
+      <div class="encabezado" id="encabezado" style="display: none;">
         <div class="categoria" id="categoria">Ciencias_ecologicas_biologicas_salud</div>
         <div class="numero" id="numero">5</div>
         <div class="pregunta" id="pregunta">Diseñar cursos para enseñar a la gente sobre temas de salud e higiene.</div>
         <img src="https://i.ibb.co/SPqsRyx/221b.jpg" class="imagen" id="imagen" style="height: 200px; width: 100%; object-fit: cover;">
       </div>
-      <form method="get" id="preguntas" action="/src/index.js">
+      <form method="get" id="preguntas" action="/test">
       <!-- <div class="btn" id="btn1" style="background: white;">Me interesa</div>
       <div class="btn" id="btn2" style="background: white;">No me interesa</div> -->
-      <button type="submit" class="btn" id="btn1" style="display: default; background: white;">Me interesa</button>
+      <button type="submit" class="btn" id="btn1" style="display: none; background: white;">Me interesa</button>
       </form>
       <form method="post" id="preguntax" action="/">
-      <button type="submit" class="btn btn3" id="btn3" style="background: white; display: none;"><b>Salir</b></button>
+      <button type="submit" class="btn btn3" id="btn3" style="background: white; display: default;"><b>Salir</b></button>
       </form>
       
-      <form method="post" action="/src/index.js/stop">
-      <button type="submit" class="btn" id="btn2" style="display: default; background: white;">No me interesa</button>
+      <form method="post" action="/test/no">
+      <button type="submit" class="btn" id="btn2" style="display: none; background: white;">No me interesa</button>
       </form>
     </div>
   </body></html>

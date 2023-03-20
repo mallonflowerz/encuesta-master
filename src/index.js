@@ -1,7 +1,7 @@
-// este archivo ejecuta el archivo "app.ejs"
+// este archivo ejecuta el "app.ejs"
 const app = require("../src/config/server");
-// '' C:/Users/ADSI/Documents/siuwi/encuesta-master/src/app/views/app.ejs
-const ruta = 'C:/Users/marlo/Desktop/a/Nueva_carpeta/encuesta-master/src/app/views/app.ejs' // ponga la ruta COMPLETA de su carpeta en donde se encuentre el archivo "app.ejs"
+// ponga la ruta COMPLETA de su carpeta en donde se encuentre el archivo "app.ejs"
+const ruta = __dirname + '/app/views/app.ejs' // '' C:/Users/ADSI/Documents/siuwi/encuesta-master/src/app/views/app.ejs
 // const ruta2 = 'C:/Users/ADSI/Documents/siuwi/encuesta-master/src/app/views/alert.ejs'
 
 // no cambiar nada de estas definiciones
@@ -15,29 +15,22 @@ const html = fs.readFileSync(ruta, function (err, data) {
     console.log("ERROR: "+err);
 });
 const dom = new JSDOM(html);
-let id;
-let idCategoria = [];
-let idDefinitivo
-
-// module.exports = app;
 
 global.window = dom.window;
 global.document = dom.window.document;
 
-// require("../src/app/routes/form")(app);
-
+//inicio del servidor
 app.listen(app.get("port"), () => {
-  //inicio del servidor
-  app.get("/login", (req, res) => {
+  // rederizacion del login
+  app.get("/", (req, res) => {
       res.render("login");
-      // conection.query("select * from estudiantes.id where Est_nombre?", {
-      //     Est_id: id
-      // })
   })
   console.log("puerto del server: ", app.get("port"));
 
-  app.post("/src/app/routes/form.js", (req1, res1) => {
-    res1.redirect("/src/index.js");
+  // envio del formulario
+  app.post("/sendForm", (req1, res1) => {
+    res1.redirect("/test");
+    // query para insertar los datos del formulario
     const {nombre, apellido_uno, apellido_dos, edad, sexo, correo, ndli} = req1.body;
     conection.query("INSERT INTO estudiantes SET?", {
       Est_nombre: nombre,
@@ -50,25 +43,14 @@ app.listen(app.get("port"), () => {
   }, (err, result) => {
       if (err == null){
           console.log("Los datos han sido guardados correctamente");
-          // res.redirect("/");
       } else{
           console.log("ERROR!!: "+ err);
       }
-  })    
-    const consulta = "select * from estudiantes where Est_nombre = '"+ nombre + "' and Est_apellido_uno = '"+ apellido_uno + "' and Est_apellido_dos = '"+ apellido_dos+"'";
-    conection.query(consulta, (err, result) => {
-        if (err == null){
-            console.log("Los datos han sido guardados correctamente");
-            // res.redirect("/");
-            id = result[0].Est_id;
-            console.log(result);
-        } else{
-            console.log("ERROR!!: "+ err);
-        }
-    })
+  })  
   })
 
-  app.get("/src/index.js", (req, res) => {
+  // renderizacion del test (esta parte se usa para calcular en el boton "Me interesa")
+  app.get("/test", (req, res) => {
     oButton();
     escogerPreguntaAleatoria();
     fs.writeFileSync(ruta, document.documentElement.outerHTML, function (err) {
@@ -77,40 +59,16 @@ app.listen(app.get("port"), () => {
     })
     res.render("app");
   })
-
-  // app.post("/src/mi", (req, res) => {
-  //   res.render("app");
-  //   oButton();
-  // })
-
-  app.get("/verific.js", (req, res) => {
-    res.render("login");
-  })
-
-  app.get("/src/app/routes/form.js", (req, res) => {
-    res.render("login");
-  })
-
-  // app.post("/src/index.js", (req, res) => {
-  //   fs.writeFileSync(ruta, document.documentElement.outerHTML, function (err) {
-  //     console.log("ERROR!!: "+err);
-  //   })
-  //   res.render("app");
-  //   escogerPreguntaAleatoria();
-  //   // 
-  // })
-
-  app.post("/src/index.js/stop", (req, res) => {
+  // renderiza el test (esta parte se usa para no calcular nada en el boton "No me interesa")
+  app.post("/test/no", (req, res) => {
     reiniciar();
     res.render("app");
   })
-
-  // app.get("/finish", (req, res) =>{
-  //   console.log("TERMINO");
-  // });
 }) 
 
-// FUNCIONES DEL TEST
+// Definicion de las variables
+let idCategoria = [];
+let idDefinitivo
 
 let arte_creatividad=0;
 let ciencias_sociales=0;
@@ -126,19 +84,18 @@ let reiniciar_puntos_al_reiniciar_el_juego = true;
 let pregunta;
 let posibles_respuestas = [];
 
-
 let npreguntas = [];
 
 let preguntas_hechas = 0;
 let preguntas_correctas = 0;
 
-let juego_finish = false;
-
 function select_id(id) {
+  // selecciona el id de cualquier etiqueta en el EJS
     return document.getElementById(id);
 }
 
 function escogerPreguntaAleatoria() {
+  // escoge una pregunta de forma aletoria
   select_id("btn3").style.display = "none";
     let n;
     if (preguntas_aleatorias) {
@@ -153,9 +110,7 @@ function escogerPreguntaAleatoria() {
       }
       if (npreguntas.length == base_preguntas.length) {
         //Aquí es donde el juego se reinicia
-        // select_id("preguntas").setAttribute("action", "/finish");
         if (mostrar_pantalla_juego_términado) {
-          // juego_finish = true;
           perfil=(Math.max(arte_creatividad, ciencias_sociales, ciencias_eaf, ciencia_tecnologia, ciencia_ebs));
           perfilMasalto = arte_creatividad == perfil ? "Arte y Creatividad" :
           ciencias_sociales == perfil ? "Ciencias Sociales" :
@@ -164,7 +119,6 @@ function escogerPreguntaAleatoria() {
           ciencia_ebs == perfil ? "Ciencias ecolog, biolog y salud" : null;
           console.log("Perfil mas alto: "+perfilMasalto);
 
-          // select_id("preguntas").setAttribute("action", "/");
           select_id("btn2").style.display = "none";
           select_id("btn1").style.display = "none";
           select_id("btn3").style.display = "default";
@@ -174,6 +128,7 @@ function escogerPreguntaAleatoria() {
           let perfilCompleto; 
           let categoriaCompleta;
 
+          // escoge el perfil mas alto
           switch(perfilMasalto){
             case "Ciencia y Tecnologia":
 
@@ -214,13 +169,13 @@ function escogerPreguntaAleatoria() {
           ciencias_eaf=0;      //	Ciencias economica, administrativa y financiera
           ciencia_tecnologia=0;
           ciencia_ebs=0;
-          // juego_finish=false;
 
           if (perfilCompleto !== null) {
             app.post("/", (req, res) => {
-              res.redirect("login");
+              res.redirect("/");
               const consulta2 = "INSERT into perfiles set?";
               const consulta3 = "select Cat_nombre from categorias";
+              // query para obtener el nombre de cada categoria
               conection.query(consulta3, (err, result)=>{
                 if (err == null){
                   console.log("Los datos han sido guardados correctamente");
@@ -244,6 +199,7 @@ function escogerPreguntaAleatoria() {
                   console.log("ERROR!!: "+ err);
                 }
               })
+              // query para insertar el perfil y su respectiva categoria
               conection.query(consulta2, {
                 Per_descripcion: perfilCompleto,
                 Cat_id: idDefinitivo
@@ -273,15 +229,17 @@ function escogerPreguntaAleatoria() {
     preguntas_hechas++;
     escogerPregunta(n);
     setTimeout(() => {
-      select_id("preguntas").setAttribute("action", "/src/index.js");
+      // esconde todo para mostrar el resultado final del test
+      select_id("preguntas").setAttribute("action", "/test");
       select_id("btn2").style.display = "default";
       select_id("btn1").style.display = "default";
       select_id("encabezado").style.display = "default";
       select_id("resultado").style.display = "none";
-    }, 1500);
+    }, 20);
   }
 
 function escogerPregunta(n) {
+  // guarda todas las preguntas y las escoge
     pregunta = base_preguntas[n];
     select_id("categoria").textContent = pregunta.categoria;
     select_id("pregunta").textContent = pregunta.pregunta;
@@ -309,6 +267,7 @@ function escogerPregunta(n) {
 }
 
 function desordenarRespuestas(pregunta) {
+  // desordena las respuestas (actualmente solo muestra las respuesta no de forma desordenada)
     posibles_respuestas = [
       pregunta.respuesta,
       pregunta.incorrecta1,
@@ -320,22 +279,16 @@ function desordenarRespuestas(pregunta) {
 
 }
 
-let suspender_botones = false;
-
 btn_correspondiente = [
   select_id("btn1"),
   select_id("btn2"),
 ];
 
 function oButton() {
-  // if (suspender_botones) {
-  //   return;
-  // }
-  // suspender_botones = true;
+  // sumatorio de las categorias
   const buttons = document.getElementById("btn1");
   preguntas_correctas++;
   if (buttons.textContent == "Me interesa"){
-    // console.log("Este es el select: "+select_id("categoria").textContent);
     if (select_id("categoria").textContent == "Ciencia_tecnologia"){
       ciencia_tecnologia++;
       console.log("Ciencia_tecnologia" + ciencia_tecnologia);
@@ -357,10 +310,6 @@ function oButton() {
   } else {
     console.log(buttons.textContent+" / ");
   }
-  // setTimeout(() => {
-  //   // reiniciar();
-  //   // suspender_botones = false;
-  // }, 1000);
 }
 
 function style(id) {
@@ -368,9 +317,7 @@ function style(id) {
 }
 
 function reiniciar() {
-    for (const btn of btn_correspondiente) {
-      btn.style.background = "white";
-    }
+  // reinicia a la siguiente pregunta sin calcular nada
     escogerPreguntaAleatoria();
     fs.writeFileSync(ruta, document.documentElement.outerHTML, function (err) {
         console.log("ERROR!!: "+err);
